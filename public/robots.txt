@@ -1,0 +1,8 @@
+# robots.txt — Alks Electricals and Handyman Services
+# https://alkselectricals.com.au
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://alkselectricals.com.au/sitemap.xml

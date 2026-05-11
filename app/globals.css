@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Palette tokens ─────────────────────────── */
+:root {
+  --bg:          #FFFFFF;
+  --bg-warm:     #F8F6F1;
+  --bg-dark:     #111520;
+  --accent:      #F59C00;
+  --accent-hi:   #FFAD1A;
+  --accent-dark: #D4820A;
+  --text:        #0D1117;
+  --text-body:   #374151;
+  --text-muted:  #6B7280;
+  --border:      #E9E6DF;
+}
+
+/* ─── Reset / base ───────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: #FFFFFF;
+  color: #0D1117;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a[href^="tel"] { color: inherit; text-decoration: none; }
+:focus-visible  { outline: 2px solid #F59C00; outline-offset: 3px; border-radius: 4px; }
+
+/* ─── Keyframes ──────────────────────────────── */
+
+/* Phone icon ring — draws attention to tap-to-call */
+@keyframes ring {
+  0%          { transform: rotate(0deg)   scale(1);    }
+  8%          { transform: rotate(-14deg) scale(1.05); }
+  16%         { transform: rotate(14deg)  scale(1.05); }
+  24%         { transform: rotate(-10deg) scale(1);    }
+  32%         { transform: rotate(10deg)  scale(1);    }
+  40%, 100%   { transform: rotate(0deg)   scale(1);    }
+}
+.animate-ring {
+  animation: ring 2.6s ease-in-out 1.5s infinite;
+  display: inline-block;
+  transform-origin: center;
+}
+
+/* Amber glow-pulse on primary CTA */
+@keyframes pulse-amber {
+  0%, 100% { box-shadow: 0 0 0 0   rgba(245,156,0,0.45); }
+  50%       { box-shadow: 0 0 0 10px rgba(245,156,0,0);   }
+}
+.cta-pulse { animation: pulse-amber 2.2s ease-out 1s infinite; }
+
+/* Marquee for the area strip */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 28s linear infinite; }
+.marquee-track:hover { animation-play-state: paused; }
+
+/* ─── Scrollbar ──────────────────────────────── */
+::-webkit-scrollbar        { width: 5px; }
+::-webkit-scrollbar-track  { background: #f5f4f0; }
+::-webkit-scrollbar-thumb  { background: #d1cdc4; border-radius: 5px; }
+
+/* ─── Select ─────────────────────────────────── */
+select { -webkit-appearance: none; appearance: none; }
+
+/* ─── Utility ────────────────────────────────── */
+@layer utilities {
+  .section-label {
+    @apply text-[11px] font-semibold tracking-[0.15em] uppercase text-[#F59C00];
+  }
+}
