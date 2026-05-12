@@ -37,8 +37,8 @@ export default function Hero() {
 
       {/* Top fade — blends image into dark bg behind the nav */}
       <div
-        className="absolute inset-x-0 top-0 h-32 z-[5]"
-        style={{ background: 'linear-gradient(to bottom, #0a0c18 0%, transparent 100%)' }}
+        className="absolute inset-x-0 top-0 h-48 z-[5]"
+        style={{ background: 'linear-gradient(to bottom, #0a0c18 0%, #0a0c18 40%, transparent 100%)' }}
         aria-hidden="true"
       />
 
