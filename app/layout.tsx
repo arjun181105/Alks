@@ -48,7 +48,7 @@ const businessSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
-    reviewCount: '23',
+    reviewCount: '24',
     bestRating: '5',
     worstRating: '1',
   },
@@ -62,10 +62,10 @@ const businessSchema = {
     },
     {
       '@type': 'Review',
-      author: { '@type': 'Person', name: 'S P' },
+      author: { '@type': 'Person', name: 'Manpreet Singh' },
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody:
-        'Highly recommend Alks Electricals! Very helpful, skilled, reasonably priced, and truly reliable. Showed up on time, explained everything clearly, and did an excellent job — will definitely use again!',
+        'Fantastic service from Alks Electricals and Handyman Services! Very professional, punctual, and the quality of workmanship is outstanding. Highly recommend them to anyone in the area looking for a reliable and honest tradesman.',
     },
     {
       '@type': 'Review',
