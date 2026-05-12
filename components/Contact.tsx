@@ -62,10 +62,20 @@ export default function Contact() {
           <p className="section-label mb-3">Contact</p>
           <h2
             id="contact-heading"
-            className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] leading-tight"
+            className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] leading-tight mb-4"
           >
-            Let&apos;s get your job done.
+            Ready to get it done?
           </h2>
+          <a
+            href={BUSINESS.phoneTel}
+            className="inline-flex items-center gap-3 bg-[#F59C00] hover:bg-[#FFAD1A] active:scale-[0.97] text-white font-bold text-[18px] sm:text-[22px] px-7 py-4 rounded-xl transition-all shadow-[0_4px_20px_rgba(245,156,0,0.4)] cta-pulse"
+          >
+            <Phone className="w-5 h-5 animate-ring" strokeWidth={2.5} />
+            Call {BUSINESS.phone}
+          </a>
+          <p className="text-[#5A6278] text-[13px] mt-4">
+            Prefer to write? Fill in the form below and Abhi will get back to you.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16">

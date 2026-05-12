@@ -51,9 +51,9 @@ export default function Services() {
           </div>
           <a
             href={BUSINESS.phoneTel}
-            className="hidden sm:inline-flex items-center gap-2 text-[13px] font-semibold text-[#374151] hover:text-[#0D1117] border border-[#E9E6DF] hover:border-[#D0CDC6] hover:bg-[#F8F6F1] px-4 py-2.5 rounded-xl transition-all flex-shrink-0"
+            className="hidden sm:inline-flex items-center gap-2 text-[13px] font-semibold text-white bg-[#F59C00] hover:bg-[#FFAD1A] active:scale-[0.97] px-4 py-2.5 rounded-xl transition-all flex-shrink-0 shadow-[0_2px_8px_rgba(245,156,0,0.35)]"
           >
-            <Zap className="w-3.5 h-3.5 text-[#F59C00]" strokeWidth={2.5} />
+            <Zap className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
             Call for a quote
           </a>
         </div>
@@ -97,9 +97,9 @@ export default function Services() {
         <div className="mt-6 sm:hidden">
           <a
             href={BUSINESS.phoneTel}
-            className="flex items-center justify-center gap-2 text-[14px] font-semibold text-[#374151] border border-[#E9E6DF] px-4 py-3.5 rounded-xl transition-all w-full hover:bg-[#F8F6F1]"
+            className="flex items-center justify-center gap-2 text-[14px] font-semibold text-white bg-[#F59C00] hover:bg-[#FFAD1A] active:scale-[0.97] px-4 py-3.5 rounded-xl transition-all w-full shadow-[0_2px_8px_rgba(245,156,0,0.35)]"
           >
-            <Zap className="w-4 h-4 text-[#F59C00]" strokeWidth={2.5} />
+            <Zap className="w-4 h-4 text-white" strokeWidth={2.5} />
             Call to discuss your job
           </a>
         </div>

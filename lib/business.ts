@@ -5,7 +5,7 @@ export const BUSINESS = {
   phone: '0406 475 585',
   phonePlain: '0406475585',
   phoneTel: 'tel:0406475585',
-  email: 'alkselectricals@gmail.com', // Update with actual email if different
+  email: 'uppalabhishek998@gmail.com',
   address: {
     street: '18 Moorabool Grv',
     suburb: 'Wollert',
@@ -15,7 +15,7 @@ export const BUSINESS = {
   },
   hours: 'Open 24 Hours, 7 Days',
   rating: 5.0,
-  reviewCount: 23,
+  reviewCount: 24,
   googleMapsUrl: 'https://share.google/ZkH7eamknFwn4Vq6Y',
   facebookUrl: 'https://www.facebook.com/alks.ahs',
   serviceArea: 'Wollert, Epping, Craigieburn, Doreen, South Morang, Mernda, Roxburgh Park & Melbourne\'s Northern Suburbs',
@@ -82,9 +82,9 @@ export const REVIEWS = [
     rating: 5,
   },
   {
-    name: 'S P',
-    date: '3 months ago',
-    text: 'Highly recommend Alks Electricals! Very helpful, skilled, reasonably priced, and truly reliable. Showed up on time, explained everything clearly, and did an excellent job — will definitely use again!',
+    name: 'Manpreet Singh',
+    date: 'A day ago',
+    text: 'Fantastic service from Alks Electricals and Handyman Services! Very professional, punctual, and the quality of workmanship is outstanding. Highly recommend them to anyone in the area looking for a reliable and honest tradesman.',
     rating: 5,
   },
   {

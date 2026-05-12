@@ -13,7 +13,7 @@ const fadeUp = (delay: number) => ({
 
 const STATS = [
   { value: '5.0★', label: 'Google Rating' },
-  { value: '23+',  label: 'Verified Reviews' },
+  { value: '24+',  label: 'Verified Reviews' },
   { value: '24/7', label: 'Availability' },
 ]
 
@@ -55,9 +55,9 @@ export default function Hero() {
           {...fadeUp(0.08)}
           className="text-[2.8rem] sm:text-[4rem] lg:text-[5rem] font-bold text-white leading-[1.02] tracking-[-0.03em] mb-6 max-w-2xl"
         >
-          Where <span className="text-[#F59C00] italic">reliable</span>
-          <br />tradies get
-          <br />the job done.
+          A licensed electrician
+          <br />who actually
+          <br /><span className="text-[#F59C00] italic">shows up.</span>
         </motion.h1>
 
         {/* Sub */}
@@ -78,7 +78,7 @@ export default function Hero() {
           <a
             href="#contact"
             onClick={e => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }) }}
-            className="inline-flex items-center justify-center gap-2 text-white border border-white/30 hover:border-white/70 font-semibold text-[14px] px-7 py-4 rounded-xl transition-all uppercase tracking-widest group"
+            className="inline-flex items-center justify-center gap-2 text-[#0D1117] bg-white hover:bg-[#F0EDE8] font-semibold text-[14px] px-7 py-4 rounded-xl transition-all uppercase tracking-widest group"
           >
             Get a free quote
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
