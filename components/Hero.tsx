@@ -43,7 +43,7 @@ export default function Hero() {
       />
 
       {/* Main content */}
-      <div className="relative z-20 max-w-6xl mx-auto px-5 sm:px-8 w-full flex-1 flex flex-col justify-center pt-28 pb-16 sm:pt-36">
+      <div className="relative z-20 max-w-6xl mx-auto px-5 sm:px-8 w-full flex-1 flex flex-col justify-start pt-24 pb-16 sm:pt-32">
 
         {/* Location breadcrumb */}
         <motion.p {...fadeUp(0)} className="text-[#F59C00] text-[11px] font-bold tracking-[0.25em] uppercase mb-6">
