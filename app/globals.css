@@ -20,6 +20,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  background: #0a0f1e; /* prevents grey bleed on iOS overscroll/status bar */
 }
 body {
   background: #FFFFFF;
