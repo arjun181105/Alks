@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[auto] sm:min-h-screen flex flex-col overflow-hidden"
+      className="relative min-h-[auto] sm:min-h-screen flex flex-col overflow-hidden bg-[#0a0c18]"
       aria-label="Hero"
     >
       {/* Background illustration */}
