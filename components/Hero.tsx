@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col overflow-hidden"
+      className="relative min-h-[auto] sm:min-h-screen flex flex-col overflow-hidden"
       aria-label="Hero"
     >
       {/* Background illustration */}
@@ -30,7 +30,7 @@ export default function Hero() {
         alt=""
         fill
         priority
-        style={{ objectFit: 'cover', objectPosition: 'center right' }}
+        style={{ objectFit: 'cover', objectPosition: 'top center' }}
         className="z-0 select-none"
         aria-hidden="true"
       />
